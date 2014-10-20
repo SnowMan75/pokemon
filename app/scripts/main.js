@@ -20,9 +20,4 @@ var POKEMON = {
       $(this).prepend('<h1>' + POKEMON.names[index] + '</h1>');
     });
   });
-
-  $('.logo').on('click', function(e) {
-    e.preventDefault();
-    $('#drawer').toggleClass('is-open');
-  });
 })(jQuery);
