@@ -17,7 +17,7 @@ var POKEMON = {
 
     // Add names to each Pokemon card
     $('.pokemon').each(function(index) {
-      $(this).prepend('<h1>' + POKEMON.names[index] + '</h1>');
+      $(this).append('<h1>' + POKEMON.names[index] + '</h1>');
     });
   });
 })(jQuery);
