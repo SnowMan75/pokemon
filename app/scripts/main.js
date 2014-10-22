@@ -39,7 +39,7 @@ var POKEMON = {
 
     $('#logo').on('click', function(e) {
       e.preventDefault();
-      $('#drawer').toggleClass('is-open');
+      $('#drawer, #logo').toggleClass('is-open');
     });
   });
 })(jQuery);
